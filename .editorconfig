@@ -10,7 +10,10 @@ trim_trailing_whitespace = false
 [*.js]
 trim_trailing_whitespace = true
 
-# Unix-style newlines with a newline ending every file
+[*.yml]
+indent_style = space
+indent_size = 2
+
 [*]
 indent_style = space
 indent_size = 2
