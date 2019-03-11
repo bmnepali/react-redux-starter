@@ -1,0 +1,20 @@
+// Custom Variables
+@import 'variables';
+
+// Import Bootstrap styles
+@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+// Mixins
+@import './mixins/index';
+
+// Common Styles like
+@import './common/index';
+
+// Components
+@import './components/index';
+
+// Pages
+@import './pages/index';
+
+// Overrides
+@import 'overrides';
