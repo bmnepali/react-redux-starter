@@ -1,3 +1,5 @@
 node_modules/
+statistics/
+coverage/
 dist/
 package-lock.json
