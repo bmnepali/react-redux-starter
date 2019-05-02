@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component render testing matches the snapshot 1`] = `
+<BrowserRouter>
+  <Suspense>
+    <lazy />
+  </Suspense>
+</BrowserRouter>
+`;
