@@ -18,10 +18,11 @@
   "maintainers": [
     "Buddha Man Nepali"
   ],
-  "repository": {},
+  "repository": "https://github.com/bmnepali/react-redux-starter.git",
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "test": "jest",
     "test:watch": "jest --watch",
     "test:debug": "node --inspect-brk ./node_modules/.bin/jest --runInBand --watch",
     "test:coverage": "jest --coverage --colors",

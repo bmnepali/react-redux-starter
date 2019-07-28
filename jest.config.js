@@ -3,7 +3,7 @@ module.exports = {
   'globals': {
     'window': true,
   },
-  'testURL': 'http://localhost:9090',
+  'testURL': 'http://localhost:8080',
   'setupFiles': ['./jest.setup.js'],
   'snapshotSerializers': ['enzyme-to-json/serializer'],
   'moduleNameMapper': {
