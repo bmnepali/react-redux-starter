@@ -3,6 +3,8 @@
 
 A project created with love using React, Redux, SCSS, Eslint, StyleLint, Prettier, Webpack, Html5. This page documents all steps that are necessary to get this project up and running.
 
+![img](https://travis-ci.org/bmnepali/react-redux-starter.svg?branch=master)
+
 ## Features
 * React 16
 * Webpack 4
