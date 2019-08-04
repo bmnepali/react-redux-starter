@@ -7,6 +7,7 @@ A project created with love using React, Redux, SCSS, Eslint, StyleLint, Prettie
 
 ## Features
 * React 16.8.x
+* Redux 4.x.x
 * Webpack 4.x.x
 * Babel 7.x.x
 * Bootstrap v4.3.x
@@ -25,7 +26,6 @@ A project created with love using React, Redux, SCSS, Eslint, StyleLint, Prettie
 * Code Splitting usnig `React.lazy()` and `React.Suspense`
 * Async/Await support
 * Test Coverage
-* Build Statistics
 * Standard commit message template on `git commit`
 
 ## Guidlines for Developers
@@ -85,8 +85,7 @@ A project created with love using React, Redux, SCSS, Eslint, StyleLint, Prettie
 `npm run test:debug`
 
 ##### For commiting the changes just do 
-`git commit` 
-*** (and it automitically lints, pretifies js and scss) ***
+`git commit` (and it automitically lints, pretifies js and scss)
 
 ### Branch Structure (Git Workflow)
 #### master : 
