@@ -1,11 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import store from './store/store';
+import { Provider } from 'react-redux';
 
-import App from './App';
-
-const title = 'React Redux Starter Project';
+const App = React.lazy(() => import('./App'));
 
 ReactDOM.render(
-  <App title={title} />,
-  document.getElementById('app')
+  <Provider store={store}>
+    <React.Suspense fallback={<p>Please wait ...</p>}>
+      <App />
+    </React.Suspense>
+  </Provider>,
+  document.getElementById('react-redux-starter-app'),
 );

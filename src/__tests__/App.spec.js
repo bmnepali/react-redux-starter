@@ -9,7 +9,7 @@ describe('App Component', () => {
       shallow(<App />);
     });
 
-    it('matches snapshot', () => {
+    it('matches the snapshot', () => {
       const wrapper = shallow(<App />);
       expect(toJson(wrapper)).toMatchSnapshot();
     });

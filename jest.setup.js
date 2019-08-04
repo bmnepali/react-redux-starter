@@ -10,9 +10,3 @@ global.shallow = shallow;
 global.render = render;
 global.mount = mount;
 global.toJson = toJson;
-global.window = {
-  location: {
-    path: '',
-    search: '',
-  },
-};

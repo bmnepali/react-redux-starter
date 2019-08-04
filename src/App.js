@@ -1,10 +1,14 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { BrowserRouter } from 'react-router-dom';
 
-const App = ({ title }) => (<div>{title}</div>);
+const Routes = React.lazy(() => import('./Routes'));
 
-App.propTypes = {
-  title: PropTypes.string,
-};
+const App = () => (
+  <BrowserRouter>
+    <React.Suspense>
+      <Routes />
+    </React.Suspense>
+  </BrowserRouter>
+);
 
 export default App;

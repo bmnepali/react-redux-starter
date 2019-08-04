@@ -6,17 +6,27 @@ A project created with love using React, Redux, SCSS, Eslint, StyleLint, Prettie
 ![img](https://travis-ci.org/bmnepali/react-redux-starter.svg?branch=master) ![David](https://img.shields.io/david/bmnepali/react-redux-starter) ![GitHub](https://img.shields.io/github/license/bmnepali/react-redux-starter)
 
 ## Features
-* React 16
-* Webpack 4
-* Babel 7
+* React 16.8.x
+* Redux 4.x.x
+* Webpack 4.x.x
+* Babel 7.x.x
+* Bootstrap v4.3.x
+* jQuery v3.3.x
 * Hot Module Replacement
-* Pre-Commit Hook
+* Uses Pre-Commit Hook for
   - Runs Pretifier
   - Runs Eslint Fix
   - Runs StyleLint Fix
 * Eslint
 * StyleLint
 * Preetier
+* SASS/SCSS using `scss-loader`, `css-loader` and `node-sass`
+* Js Minification for Production
+* css Minification for Production
+* Code Splitting usnig `React.lazy()` and `React.Suspense`
+* Async/Await support
+* Test Coverage
+* Standard commit message template on `git commit`
 
 ## Guidlines for Developers
 ### Working On the Project
@@ -35,6 +45,9 @@ A project created with love using React, Redux, SCSS, Eslint, StyleLint, Prettie
 
 * Then run command to install project dependencies
 `npm install` or simply `npm i`
+
+* Configure the standard git commit template
+`git config --local commit.template "./.git-commit-template"`
 
 ##### Run the project (development):
 * Run the following command to run the project
@@ -70,6 +83,9 @@ A project created with love using React, Redux, SCSS, Eslint, StyleLint, Prettie
 
 ##### Debugging Test cases in browser
 `npm run test:debug`
+
+##### For commiting the changes just do 
+`git commit` (and it automitically lints, pretifies js and scss)
 
 ### Branch Structure (Git Workflow)
 #### master : 
