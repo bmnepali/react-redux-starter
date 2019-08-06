@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
+// Lazy load routes
 const Routes = React.lazy(() => import('./Routes'));
 
 const App = () => (

@@ -9,11 +9,11 @@ export default function reducer(state = initialCounterState, action) {
   switch (action.type) {
     case INCREMENT:
       return {
-        counter: state.counter + 1,
+        counter: action.payload,
       };
     case DECREMENT:
       return {
-        counter: state.counter - 1,
+        counter: action.payload,
       };
     default:
       return state;
